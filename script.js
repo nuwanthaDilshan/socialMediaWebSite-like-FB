@@ -1,9 +1,14 @@
 var settingsmenu = document.querySelector(".settings-menu");
+var postmenu = document.querySelector(".post-menu");
 var darkbtn = document.getElementById("dark-btn");
 
 
 function settingsMenuToggle() {
     settingsmenu.classList.toggle("settings-menu-height");
+}
+
+function postMemuToggle() {
+    postmenu.classList.toggle("post-menu-height");
 }
 
 darkbtn.onclick = function () {
